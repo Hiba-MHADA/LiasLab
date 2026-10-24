@@ -1,0 +1,22 @@
+# Fichiers générés
+build/
+bin/
+target/
+*.class
+*.log
+
+# Eclipse (espace de travail)
+.metadata/
+.apt_generated/
+
+# Système
+Thumbs.db
+.DS_Store
+
+# Fichiers sensibles
+**/config.properties
+**/db.properties
+.env
+
+# Garder les JAR de WEB-INF/lib
+!src/main/webapp/WEB-INF/lib/*.jar
